@@ -12,10 +12,21 @@
     <img src="googlelogo_color_272x92dp.png" alt="google-logo">
     <div class="div1">
         <form action="https://www.google.com/search">
-            <input type="text" name="q" class="i1">
+            <div class="div4">
+                <label for="all-words">Find pages with all these words: </label> 
+                <input type="text" name="as_q" id="all-words" class="text-input">
+                <br>
+                <label for="exact-phrase">Find pages with these exact words or phrase: </label> 
+                <input type="text" name="as_epq" id="exact-phrase" class="text-input">
+                <br>
+                <label for="any-words">Find pages with any of these words: </label> 
+                <input type="text" name="as_oq" id="any-words" class="text-input">
+                <br>
+                <label for="none-words">Find pages with none these words: </label> 
+                <input type="text" name="as_eq" id="none-words" class="text-input">
+            </div>
             <div class="div3">
                 <input type="submit" value="Google Search" class="i2">
-                <a class="i3" href="https://www.google.com/search?btnI=1">I'm Feeling Lucky</a>
             </div>
         </form>
     </div>
